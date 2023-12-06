@@ -19,10 +19,10 @@ function dateMethods() {
 
   // Getting and setting time in milliseconds since 1970
   console.log("Time in milliseconds since 1970:", currentDate.getTime());
-
+  //epoch timestamp above
   const newDate = new Date(2023, 8, 15); // Creating a new date
   console.log("New Date:", newDate);
 }
-
+//setInterval() --> to print the current time
 // Example Usage for Date Methods
 dateMethods();

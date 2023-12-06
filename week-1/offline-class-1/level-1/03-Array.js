@@ -9,7 +9,7 @@
 function pushExample(arr, element) {
   console.log("Original Array:", arr);
 
-  arr.push(element);
+  arr.push(element);//appends in the last of the arrays
   console.log("After push:", arr);
 }
 pushExample([1, 2, 3], 4);
@@ -18,7 +18,7 @@ pushExample([1, 2, 3], 4);
 function popExample(arr) {
   console.log("Original Array:", arr);
 
-  arr.pop();
+  arr.pop();//LIFO
   console.log("After pop:", arr);
 }
 popExample([1, 2, 3]);
@@ -27,7 +27,7 @@ popExample([1, 2, 3]);
 function shiftExample(arr) {
   console.log("Original Array:", arr);
 
-  arr.shift();
+  arr.shift();//FIFO pops from the front
   console.log("After shift:", arr);
 }
 shiftExample([1, 2, 3]);
@@ -36,7 +36,7 @@ shiftExample([1, 2, 3]);
 function unshiftExample(arr, element) {
   console.log("Original Array:", arr);
 
-  arr.unshift(element);
+  arr.unshift(element);//apeends in the front of the arrays
   console.log("After unshift:", arr);
 }
 unshiftExample([1, 2, 3], 0);

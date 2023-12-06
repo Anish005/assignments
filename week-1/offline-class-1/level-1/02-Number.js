@@ -1,6 +1,6 @@
 function explainParseInt(value) {
   console.log("Original Value:", value);
-  let result = parseInt(value);
+  let result = parseInt(value);//converts the strings into integer,it is a global function
   console.log("After parseInt:", result);
 }
 
